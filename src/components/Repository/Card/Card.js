@@ -1,7 +1,7 @@
 import { GoStar, GoRepoForked } from "react-icons/go";
 import "./Card.css";
 
-export default function RepositoryCard(repo) {
+export default function RepositoryCard({ repo }) {
   return (
     <div className="RepositoryCard">
       <h3>{repo.name}</h3>
