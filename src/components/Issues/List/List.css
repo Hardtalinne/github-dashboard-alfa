@@ -1,4 +1,4 @@
-.UserList {
+.IssuesList {
   width: 100%;
   height: calc(100vh - 7rem);
   border-radius: 10px;
@@ -7,13 +7,18 @@
   background-color: #44475a;
 }
 
-.UserList > h3 {
+.IssuesList > h3 {
   margin-top: 1rem;
   margin-bottom: 0.5rem;
   padding: 0 1rem;
 }
 
-.UserList__content {
+.IssuesList > h3 span {
+  font-size: 0.8rem;
+  margin-left: 1rem;
+}
+
+.IssuesList__content {
   display: flex;
   flex-direction: column;
   gap: 0.3rem;

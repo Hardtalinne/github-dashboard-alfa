@@ -7,6 +7,12 @@
   padding: 1rem;
 }
 
+.RepositoryCard:hover,
+.RepositoryCard--selected {
+  background-color: #282a36;
+}
+
+
 .RepositoryCard h3 {
   margin-top: 0;
   white-space: inherit;
@@ -25,4 +31,14 @@
 
 .RepositoryCard__additional-info > span svg {
   margin-right: 0.3rem;
+}
+
+.RepositoryCard__languages {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.RepositoryCard__languages > p {
+  margin: 2px;
 }

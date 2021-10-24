@@ -1,0 +1,56 @@
+.IssuesCard {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #282a36;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  padding: 1rem;
+}
+
+.IssuesCard__heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.IssuesCard__link {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.IssuesCard__width-full {
+  width: 100%;
+}
+
+.IssuesCard__badge-closed {
+  background-color:#FED7D7;
+  color: #822727;
+  font-weight: 600;
+  padding: 2px;
+  border-radius: 2px;
+}
+
+.IssuesCard__badge-opened {
+  background-color:#C6F6D5;
+  color: #22543D;
+  font-weight: 600;
+  padding: 2px;
+  border-radius: 2px;
+}
+
+.IssuesCard__body-text{
+  word-break: break-word;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+h1{
+  margin: 0;
+}
